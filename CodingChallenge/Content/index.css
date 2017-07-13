@@ -1,0 +1,22 @@
+﻿/* Hoja de estilo de la página principal index */
+
+body {
+    font-size: 16px;
+}
+
+#input-titulos {
+    width: 28.125rem;
+}
+
+.typeahead.dropdown-menu {
+    overflow-y: auto;
+    max-height: 12.5rem;
+}
+
+#titulo-detail {
+    display: none;
+}
+
+#input-search-group {
+    margin-bottom: 2.15rem;
+}

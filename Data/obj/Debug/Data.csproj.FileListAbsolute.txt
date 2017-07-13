@@ -1,0 +1,8 @@
+D:\GitRepository\CodingChallenge\Data\bin\Debug\Data.dll
+D:\GitRepository\CodingChallenge\Data\bin\Debug\Data.pdb
+D:\GitRepository\CodingChallenge\Data\bin\Debug\CodingChallenge.Data.dll
+D:\GitRepository\CodingChallenge\Data\bin\Debug\Moq.dll
+D:\GitRepository\CodingChallenge\Data\bin\Debug\Castle.Core.dll
+D:\GitRepository\CodingChallenge\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\GitRepository\CodingChallenge\Data\obj\Debug\Data.dll
+D:\GitRepository\CodingChallenge\Data\obj\Debug\Data.pdb

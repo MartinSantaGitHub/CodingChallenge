@@ -1,0 +1,23 @@
+﻿@using CodingChallenge.Data.Classes
+@model Titulo
+
+<div class="form-group">
+    @foreach (var property in ViewData.ModelMetadata.Properties)
+    {
+        if (property.PropertyName != "Id")
+        {
+            <div class="form-group">
+                <label>@property.PropertyName</label>
+
+                @if (property.PropertyName != "Detalle")
+                {
+                    @Html.TextBox(property.PropertyName, null, new { @class = "form-control" })
+                }
+                else
+                {
+                    @Html.TextArea(property.PropertyName, null, new { @class = "form-control" })
+                }
+            </div>
+        }
+    }
+</div>

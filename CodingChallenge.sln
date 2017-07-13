@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge", "CodingChallenge\CodingChallenge.csproj", "{68467CA2-E151-459B-9628-A781A66793D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{DDCF9253-7E7B-4822-A298-086B96682195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{68467CA2-E151-459B-9628-A781A66793D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68467CA2-E151-459B-9628-A781A66793D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68467CA2-E151-459B-9628-A781A66793D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCF9253-7E7B-4822-A298-086B96682195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCF9253-7E7B-4822-A298-086B96682195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCF9253-7E7B-4822-A298-086B96682195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCF9253-7E7B-4822-A298-086B96682195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Coding Challenge Test";
+}
+
+@section Styles {
+    <link href="~/Content/index.css" rel="stylesheet" />
+}
+
+<h2>Buscador de Acciones y Bonos</h2>
+
+<div class="form-group">
+    <div id="input-search-group">
+        @Html.TextBox("input-titulos", null, new { data_provide = "typeahead", autocomplete = "off", @class = "form-control", placeholder = "Buscar Titulo" })
+    </div>
+</div>
+
+<div id="titulo-detail"></div>
+@section Scripts
+{
+    <script src="~/Scripts/bootstrap3-typeahead.min.js"></script>
+    <script src="~/Scripts/index.js"></script>
+}
